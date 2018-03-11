@@ -20,7 +20,7 @@ public class HelloController {
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("message", "success");
         map.put("code", "1");
-        map.put("version", "0.0.1.002");
+        map.put("version", "0.0.1.003");
         String mapJson = JSON.toJSONString(map);
         return mapJson;
     }
